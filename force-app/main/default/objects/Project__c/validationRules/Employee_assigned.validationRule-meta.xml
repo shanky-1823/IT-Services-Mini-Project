@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employee_assigned</fullName>
+    <active>true</active>
+    <errorConditionFormula>Employees_Assigned__c &gt; Employees_Required__c</errorConditionFormula>
+    <errorDisplayField>Employees_Required__c</errorDisplayField>
+    <errorMessage>Employees required is lesser than employees assigned</errorMessage>
+</ValidationRule>

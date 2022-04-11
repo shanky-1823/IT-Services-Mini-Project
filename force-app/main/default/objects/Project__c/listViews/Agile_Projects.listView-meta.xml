@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agile_Projects</fullName>
+    <columns>NAME</columns>
+    <columns>Employees_Required__c</columns>
+    <columns>Project_Start_Date__c</columns>
+    <columns>Fully_Staffed__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Project__c.Agile_Project</value>
+    </filters>
+    <label>Agile Projects</label>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_End_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( RecordType.DeveloperName = &quot;Waterfall_project&quot;, Project_Start_Date__c + Project_Duration__c,  Project_Start_Date__c +( Number_of_Sprints__c  *  Days_in__c ))</formula>
+    <label>Project End Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

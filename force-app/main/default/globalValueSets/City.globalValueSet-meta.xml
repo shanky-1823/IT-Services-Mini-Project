@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Chennai</fullName>
+        <default>false</default>
+        <label>Chennai</label>
+    </customValue>
+    <customValue>
+        <fullName>Thiruvannamalai</fullName>
+        <default>false</default>
+        <label>Thiruvannamalai</label>
+    </customValue>
+    <customValue>
+        <fullName>Coimbatore</fullName>
+        <default>false</default>
+        <label>Coimbatore</label>
+    </customValue>
+    <customValue>
+        <fullName>Ranchi</fullName>
+        <default>false</default>
+        <label>Ranchi</label>
+    </customValue>
+    <customValue>
+        <fullName>Dhanbad</fullName>
+        <default>false</default>
+        <label>Dhanbad</label>
+    </customValue>
+    <customValue>
+        <fullName>Bangalore</fullName>
+        <default>false</default>
+        <label>Bangalore</label>
+    </customValue>
+    <customValue>
+        <fullName>Mangalore</fullName>
+        <default>false</default>
+        <label>Mangalore</label>
+    </customValue>
+    <customValue>
+        <fullName>Kochin</fullName>
+        <default>false</default>
+        <label>Kochin</label>
+    </customValue>
+    <customValue>
+        <fullName>Kozhikode</fullName>
+        <default>false</default>
+        <label>Kozhikode</label>
+    </customValue>
+    <customValue>
+        <fullName>Hyderabad</fullName>
+        <default>false</default>
+        <label>Hyderabad</label>
+    </customValue>
+    <customValue>
+        <fullName>Secondarabad</fullName>
+        <default>false</default>
+        <label>Secondarabad</label>
+    </customValue>
+    <customValue>
+        <fullName>New Delhi</fullName>
+        <default>false</default>
+        <label>New Delhi</label>
+    </customValue>
+    <customValue>
+        <fullName>Karawal Nagar</fullName>
+        <default>false</default>
+        <label>Karawal Nagar</label>
+    </customValue>
+    <masterLabel>City</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -45,7 +45,7 @@ public with sharing class ProjectTriggerHandler {
                                                        FROM Project_Assignment__c WHERE Project__c=:projList[0].Id];
             //List of employees who are assigned to the particular project
             List<Employee__c> assignedEmpList = new List<Employee__c>();
-            //Collect the Ids of employees to whom the email needs to be sent
+            //Collect the Employee ids to whom the email needs to be sent
             List<Id> empIds = new List<Id>();
             for(Project_Assignment__c pa:projAssgList){
                 empIds.add(pa.Employee__c);

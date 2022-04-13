@@ -100,7 +100,7 @@ public with sharing class ProjectTriggerHandler {
                         if (res.success) {
                             System.debug('The email was sent successfully');
                         } else {
-                            System.debug('The email failed to send: ' + res.errors[0].message);
+                            System.debug('The email failed to send: ' + res.errors.message);
                         }
                     }
 
